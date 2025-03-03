@@ -1,0 +1,161 @@
+/* src/components/ArticleDetail.css */
+
+/* Overall Page Container */
+.article-detail-container {
+  background-color: #f4f7f9;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.article-wrapper {
+  background-color: #ffffff;
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Article Header */
+.article-header {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 1rem;
+}
+
+.article-title {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.article-category {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* --- Force vertical layout --- */
+.article-content {
+  display: block;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.content-heading {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.content-subheading {
+  font-size: 1.3rem;
+  color: #555;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-paragraph {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* QUOTE styling */
+.content-quote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #ccc;
+  background-color: #f9f9f9;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Image styling */
+.content-figure {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.content-image {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+/* Review Section */
+.review-section {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1.5rem;
+}
+
+.review-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Textarea for Rejection Comment */
+.reject-textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+/* Buttons side by side */
+.buttons-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.approve-button,
+.reject-button {
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.approve-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}
+
+.reject-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 2rem;
+}

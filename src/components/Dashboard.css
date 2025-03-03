@@ -1,0 +1,87 @@
+/* src/components/Dashboard.css */
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* New category selector styles */
+.category-selector {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.category-selector label {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+.category-selector select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.articles-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article-item {
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+.article-link {
+  display: block;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: inherit;
+}
+
+.article-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.article-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:0!important;
+}
+
+.dashboard-container .article-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #007bff;
+  margin: 0;
+}
+
+.article-category {
+  font-size: 0.9rem;
+  color: #777;
+  margin-left: 1rem;
+}
+
+.no-articles {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
